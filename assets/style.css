@@ -105,6 +105,18 @@
   section {
     border-top: 3px solid #4548EC;
     background-color:  #E8F2FC;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+  }
+
+  section > h2  {
+   background-color:  #E8F2FC;
+   border-radius: 10px;
+   box-shadow: 0px 0px 10px 10px #E8F2FC;
+   width:200px;
+   height:auto;
   }
   
   form {
@@ -115,6 +127,7 @@
     border: 5px solid #4548EC;
     border-radius: 20px;
     z-index:4;
+    background-color:  #E8F2FC;
   }
   
   label {
@@ -189,27 +202,28 @@
   }
 
   /* I made the contact section larger so that the jump is more obvious when the user clicks the Contact link in the nav bar. */
-  section.contact   {
+  
+  div.contact-container {
+    width:100%;
     height:664px;
     display:flex;
-    flex-direction:column;
     justify-content:center;
+    align-content:center;
+    }
+  
+  section.contact   {
+    height:664px;
+    width:1154px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center; 
+    text-align:center;   
+    background-image: url(https://www.thecollector.com/wp-content/uploads/2020/10/vija-celmins-ocean-drawing-photorealism.jpg);
+    border: 5px solid #4548EC;
+  
   }
   
-  section.contact::before {    
-    content: "";
-    background-image: url(https://www.thecollector.com/wp-content/uploads/2020/10/vija-celmins-ocean-drawing-photorealism.jpg);
-    width:1154px;
-    background-repeat: no-repeat;
-    position: absolute;
-    vertical-align: bottom;
-    bottom:0px;
-    left: 0px;
-    right:0px;
-    opacity: 0.5;
-    
-}
-
+  
   .text-center {
     text-align: center;
     z-index:2;
