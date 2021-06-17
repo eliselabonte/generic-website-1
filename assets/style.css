@@ -66,12 +66,12 @@
     width: 100%;
     line-height: 60px;
     background-image: url(https://media.istockphoto.com/vectors/grey-and-white-geometric-triangles-backgorund-vector-id1007122208?k=6&m=1007122208&s=612x612&w=0&h=lJEA7fTUlIfmJo_by_3iU-5xLnvOnvtBmKI0zD4yeac=);
-    font-weight:600;
     z-index:100;
+    font-family: 'Playfair Display', serif;
     }
   
   header nav ul li{
-      background: rgba(28, 180, 94, 0.80);
+      background: rgba(251, 197, 237, 0.64);
       border-radius: 20px;
   }
   
@@ -89,7 +89,7 @@
   }
   
   footer span {
-    background:rgba(28, 180, 94, 0.80);
+    background:rgba(251, 197, 237, 0.64);
     border-radius:20px;
   }
   
@@ -112,9 +112,9 @@
   }
 
   section > h2  {
-   background-color:  #E8F2FC;
+   background-color:  #FBC5ED;
    border-radius: 10px;
-   box-shadow: 0px 0px 10px 10px #E8F2FC;
+   box-shadow: 0px 0px 10px 10px #FBC5ED;
    width:200px;
    height:auto;
   }
@@ -139,7 +139,7 @@
   textarea {
     box-sizing: border-box;
     width: 300px;
-    border: 1px solid #1CB45E;
+    border: 1px solid #FBC5ED;
   }
   
   textarea {
@@ -150,7 +150,7 @@
   button {
     height: 40px;
     width: 120px;
-    background-color: #1CB45E;
+    background-color: #FBC5ED;
     color: #10074F;  
     font-family: 'Viaoda Libre', cursive;
     margin-top:5px;
