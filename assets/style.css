@@ -1,0 +1,197 @@
+/* Universal Selector */
+* {
+    margin:0;
+    padding:0;  
+  }
+  
+  /* Element Selectors */
+  body {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    background-color: #E8F2FC;
+    color: #10074F;
+  }
+  
+  
+  h1,
+  h2 {
+    margin: 20px;
+    font-family: 'Viaoda Libre', cursive;
+  }
+  
+  
+  h1  {
+    font-size:40px;
+  }
+  
+  
+  h2  {
+    font-weight: 600;
+    font-size:25px;
+  }
+  
+  h3  {
+    font-family: 'Playfair Display', serif;
+    font-style:bold;
+    font-size: 25px;
+  }
+  
+  main {
+    padding: 60px 0;
+  }
+  
+  li {
+    display: inline;
+    padding: 20px;
+    text-decoration: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #4548EC;
+  }
+  
+  
+  p {
+    font-family: 'Playfair Display', serif;
+    line-height:25px;
+  }
+  
+  /* background image is royalty free */
+  header,
+  footer {
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    background-image: url(https://media.istockphoto.com/vectors/grey-and-white-geometric-triangles-backgorund-vector-id1007122208?k=6&m=1007122208&s=612x612&w=0&h=lJEA7fTUlIfmJo_by_3iU-5xLnvOnvtBmKI0zD4yeac=);
+    font-weight:600;
+    }
+  
+  header nav ul li{
+      background: rgba(28, 180, 94, 0.80);
+      border-radius: 20px;
+  }
+  
+  header {
+    position: fixed;
+    border-bottom: 10px solid #4548EC;
+  }
+  
+  footer {
+    position: absolute;
+    margin-top: 0;
+    bottom: 0;
+    border-bottom: 10px solid #4548EC;
+    color: #4548EC;    
+  }
+  
+  footer span {
+    background:rgba(28, 180, 94, 0.80);
+    border-radius:20px;
+  }
+  
+  figure {
+    margin-bottom: 40px;
+  }
+  
+  figcaption  {
+    font-style:italic;
+  }
+  
+  
+  section {
+    margin-bottom: 0;
+    padding: 20px 10px 40px 10px;
+    border-top: 3px solid #4548EC;
+    background-color:  #E8F2FC;
+  }
+  
+  form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    border: 5px solid #4548EC;
+    border-radius: 20px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 100px;
+  }
+    
+  input, 
+  textarea {
+    box-sizing: border-box;
+    width: 300px;
+    border: 1px solid #1CB45E;
+  }
+  
+  textarea {
+    vertical-align: top;
+    height: 60px;
+  }
+    
+  button {
+    height: 40px;
+    width: 120px;
+    background-color: #1CB45E;
+    color: #10074F;  
+    font-family: 'Viaoda Libre', cursive;
+    margin-top:5px;
+    border-radius: 10px;
+    font-size:25px;
+  }
+   
+  /* Class Selectors */
+  
+  div.flex-container  {
+    display:flex;
+    justify-content:center;
+  }
+  
+  div.book-quote   {
+    width:80%;
+    height:auto;
+  }
+  
+  div.passage  {
+   margin:20px; 
+    text-align:justify;
+  }
+  
+  div h3  {
+    margin:10px;
+  }
+  
+  p.align-right {
+    font-style:italic;  
+    text-align:right;
+    margin-top:20px;
+  }
+  
+  img.steamship-img {
+    display: block;
+    margin: 20px auto;
+    width:400px;
+    height:auto;
+    border-radius:20px;
+    border: 5px solid #10074F;
+  }
+  
+  /* I made the contact section larger so that the jump is more obvious when the user clicks the Contact link in the nav bar. */
+  section.contact   {
+    height:80vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
