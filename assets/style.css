@@ -17,6 +17,7 @@
   h1,
   h2 {
     margin: 20px;
+    margin-top: 30px;
     font-family: 'Viaoda Libre', cursive;
   }
   
@@ -66,6 +67,7 @@
     line-height: 60px;
     background-image: url(https://media.istockphoto.com/vectors/grey-and-white-geometric-triangles-backgorund-vector-id1007122208?k=6&m=1007122208&s=612x612&w=0&h=lJEA7fTUlIfmJo_by_3iU-5xLnvOnvtBmKI0zD4yeac=);
     font-weight:600;
+    z-index:100;
     }
   
   header nav ul li{
@@ -101,8 +103,6 @@
   
   
   section {
-    margin-bottom: 0;
-    padding: 20px 10px 40px 10px;
     border-top: 3px solid #4548EC;
     background-color:  #E8F2FC;
   }
@@ -114,6 +114,7 @@
     padding: 10px;
     border: 5px solid #4548EC;
     border-radius: 20px;
+    z-index:4;
   }
   
   label {
@@ -171,27 +172,50 @@
     margin-top:20px;
   }
   
-  img.steamship-img {
+  img.ship-in-bottle {
     display: block;
     margin: 20px auto;
+    margin-bottom:5px;
     width:400px;
     height:auto;
     border-radius:20px;
     border: 5px solid #10074F;
   }
   
+  figcaption.img-cap  {
+    font-size:10px;
+    text-align:center;    
+    margin-bottom:20px;
+  }
+
   /* I made the contact section larger so that the jump is more obvious when the user clicks the Contact link in the nav bar. */
   section.contact   {
-    height:80vh;
+    height:664px;
     display:flex;
     flex-direction:column;
     justify-content:center;
   }
   
+  section.contact::before {    
+    content: "";
+    background-image: url(https://www.thecollector.com/wp-content/uploads/2020/10/vija-celmins-ocean-drawing-photorealism.jpg);
+    width:1154px;
+    background-repeat: no-repeat;
+    position: absolute;
+    vertical-align: bottom;
+    bottom:0px;
+    left: 0px;
+    right:0px;
+    opacity: 0.5;
+    
+}
+
   .text-center {
     text-align: center;
+    z-index:2;
   }
   
   .text-right {
     text-align: right;
+    z-index:3;
   }
