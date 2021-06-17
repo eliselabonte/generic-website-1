@@ -220,7 +220,13 @@
     text-align:center;   
     background-image: url(https://www.thecollector.com/wp-content/uploads/2020/10/vija-celmins-ocean-drawing-photorealism.jpg);
     border: 5px solid #4548EC;
-  
+  }
+
+  section.contact:hover::after  {
+    content: "Image Artist: Vija Celmins";
+    font-size: 15px;
+    background-color: #E8F2FC;
+    margin:10px;
   }
   
   
